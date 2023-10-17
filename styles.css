@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+body{
+    background-color: rgb(33, 31, 31);
+}
+
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    padding-right: 40px;
+    text-decoration: none;
+}
+    
+
+
+.name a{
+    color: rgb(101, 163, 216);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+    margin-left:50px;
+}
+
+
+nav{
+    height:150px;
+    background: rgb(51, 51, 54);
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a{
+   
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin-left:100px;
+    text-decoration: none;
+    text-align: right;
+}
+
+a:active{
+    color:rgb(32, 145, 215);
+}
+
+a:hover{
+    color:rgb(101, 163, 216);
+}
+
+
+
+
+.about-me {
+    margin-top: 80px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-me h3{
+    font-style: italic;
+    color: rgb(119, 177, 227);
+}
+
+.about-me p{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 40px;
+}
+
+.picture-container{
+    position: relative;
+    top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 200px;
+}
+
+.cvpic1{
+    padding: 20px;
+}
+
+.cvpic2{
+    padding: 20px;
+}
+
+.cvpic3{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+.rel-courses {
+    margin-top: 80px;
+    margin-left: 90px;
+    align-items: center;
+    padding: 0 2rem;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.rel-courses h2{
+    margin-top: 100px;
+    margin-left:100px;
+    margin-right:100px;
+}
+    
+
+.rel-courses p{
+    font-size: 16px;
+    line-height: 2;
+    margin-left:180px;
+    margin-right:200px;
+    margin-bottom: 100px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+.center-container{
+    position: relative;
+    top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.resume{
+    width:800px;
+    height:auto;
+    margin-bottom: 100px;
+}
+
+
+.download h3{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.download a {
+    color:rgb(119, 177, 227);
+    font-size: 15px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+.contact{
+    margin-top: 80px;
+    margin-left: 90px;
+    align-items: center;
+    padding: 0 2rem;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    width:60%;
+    margin: 50px auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-box{
+    background-color: rgb(33, 31, 31);
+    display:flex;
+    border: 2px solid #ffffff;
+
+}
+
+.contact-left{
+    flex-basis:60%;
+    padding:40px 60px;
+    color: aliceblue;
+}
+
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width:100%;
+    border:none;
+    border-bottom:1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width:100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding:10px;
+}
+
+.email-button{
+    background-color:rgb(65, 140, 198);
+    width:100px;
+    border:none;
+    outline: none;
+    color:aliceblue;
+    height: 27px;
+    border-radius:15px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 127, 181, 0.3);
+    text-decoration: none;
+}
+
+
+
